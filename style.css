@@ -1,3 +1,22 @@
-.home{
-    background-color: #232931;
+body, html{
+    height: 100%;
+}
+.container-fluid{
+    background-color: #0D0D0D;
+}
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    transition: all .3s ease-in-out; 
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+.card-body{
+    color: white;
+    background-color: rgb(25, 25, 27);
+}
+.card{
+    border: 0px;
 }
