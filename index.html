@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
@@ -16,16 +17,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Curiosity</a>
+                <a class="nav-link" href="./pages/curiosity.html">Curiosity</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Opportunity</a>
+                <a class="nav-link" href="./pages/opportunity.html">Opportunity</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Spirit</a>
+                <a class="nav-link" href="./pages/spirit.html">Spirit</a>
               </li>
             </ul>
           </div>
@@ -36,7 +37,7 @@
     </nav>
     <div class="container-fluid m-0 p-0 home h-100 row">
         <div class="card-group text-justify ">
-            <div class="card m-3">
+            <div class="card m-3 border-0" onclick="window.location.href = './pages/curiosity.html';">
               <img class="card-img-top" src="./assets/curiosity.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title text-center">Curiosity</h5>
@@ -46,7 +47,7 @@
                 <small class="text-success">Still Operating</small>
               </div>
             </div>
-            <div class="card m-3">
+            <div class="card m-3 border-0" onclick="window.location.href = './pages/opportunity.html';">
               <img class="card-img-top" src="./assets/opportunity.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title text-center">Opportunity</h5>
@@ -56,7 +57,7 @@
                 <small class="text-danger">Mission End Date: June 10, 2018</small>
               </div>
             </div>
-            <div class="card m-3">
+            <div class="card m-3 border-0"  onclick="window.location.href = './pages/spirit.html';">
               <img class="card-img-top" src="./assets/spirit.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title text-center">Spirit</h5>
